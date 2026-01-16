@@ -1,10 +1,10 @@
-import React from "react"
+
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
 import { Home as HomeIcon, FolderGit2, Code2, Sparkles  } from "lucide-react";
 
 
 import Home from "./pages/Home";
-import Projects from "./pages/projects";
+import Projects from "./pages/Projects";
 import Skills from "./pages/Skills"
 
 function Navigation() {

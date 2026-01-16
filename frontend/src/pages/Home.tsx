@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import API from "../api";
+import API from "../Api";
 import { Mail, GraduationCap, Briefcase, Github, Linkedin, Globe, Sparkles, Code2, FolderGit2 } from "lucide-react";
 
 interface Links {
