@@ -45,14 +45,8 @@ MONGO_URI=your_mongodb_connection_string
 
 ## 🚀 Deployment & Submission
 
-* **Frontend URL**: `[Insert your Live URL]`
-* **Backend API URL**: `[Insert your Render/Backend URL]`
-* **GitHub Repo**: `[Insert Link]`
-* **Resume**: `[Link to your Resume/PDF]`
-
-## ⚠️ Known Limitations
-
-* **Single-User Focus**: The system is optimized for a single candidate profile.
-* **Write Auth**: POST/PUT operations currently lack authentication (intended as an optional enhancement).
+* **Frontend URL**: `https://me-api-ground-1.onrender.com`
+* **Backend API URL**: `https://me-api-ground.onrender.com`
+* **Resume**: `https://drive.google.com/file/d/1iAV99hC9uE3sRhQ6Ni6D4l8eYNO3eAbk/view?usp=drive_link`
 
 ---
