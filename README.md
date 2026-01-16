@@ -45,8 +45,8 @@ MONGO_URI=your_mongodb_connection_string
 
 ## 🚀 Deployment & Submission
 
-* **Frontend URL**: `https://me-api-ground-1.onrender.com`
-* **Backend API URL**: `https://me-api-ground.onrender.com`
-* **Resume**: `https://drive.google.com/file/d/1iAV99hC9uE3sRhQ6Ni6D4l8eYNO3eAbk/view?usp=drive_link`
+* **Frontend URL**: [Render Link](https://me-api-ground-1.onrender.com)
+* **Backend API URL**: [Render Link](https://me-api-ground.onrender.com)
+* **Resume**: [Drive Link](https://drive.google.com/file/d/1iAV99hC9uE3sRhQ6Ni6D4l8eYNO3eAbk/view?usp=drive_link)
 
 ---
