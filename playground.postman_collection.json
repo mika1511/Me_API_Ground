@@ -1,58 +1,54 @@
 {
   "info": {
-    "_postman_id": "7adeea9a-d36d-4f35-b85e-21addf303fbf",
-    "name": "playground",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "32141233"
+    "name": "Me-API Playground - Bhumika",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
     {
       "name": "Post Seed data",
       "request": {
-        "method": "GET",
-        "header": []
-      },
-      "response": []
-    },
-    {
-      "name": "put/update  profile",
-      "request": {
-        "method": "GET",
-        "header": []
-      },
-      "response": []
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "/* Paste your profile JSON here */"
+        },
+        "url": "{{baseUrl}}/profile"
+      }
     },
     {
       "name": "Get Profile",
       "request": {
         "method": "GET",
-        "header": []
-      },
-      "response": []
+        "url": "{{baseUrl}}/profile"
+      }
     },
     {
-      "name": "get skills",
+      "name": "Top Skills",
       "request": {
         "method": "GET",
-        "header": []
-      },
-      "response": []
+        "url": "{{baseUrl}}/skills/top"
+      }
     },
     {
-      "name": "search",
+      "name": "Search",
       "request": {
         "method": "GET",
-        "header": []
-      },
-      "response": []
+        "url": {
+          "raw": "{{baseUrl}}/search?q=Java",
+          "query": [{ "key": "q", "value": "Java" }]
+        }
+      }
     },
     {
-      "name": "top skill",
+      "name": "Health Check",
       "request": {
         "method": "GET",
-        "header": []
-      },
-      "response": []
+        "url": "{{baseUrl}}/health"
+      }
     }
+  ],
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:5000" }
   ]
 }
